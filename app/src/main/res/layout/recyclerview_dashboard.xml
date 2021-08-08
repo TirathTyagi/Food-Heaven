@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="4dp">
+    <RelativeLayout
+        android:id="@+id/dashboardViewLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/imgRestaurant"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:padding="10dp"
+            android:src="@drawable/ic_default_rest"
+            android:layout_marginLeft="5dp"
+            android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/txtRestaurantName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/imgRestaurant"
+            android:text="Restaurant's Name"
+            android:layout_marginTop="25dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/txtPricePerson"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtRestaurantName"
+            android:layout_toRightOf="@id/imgRestaurant"
+            android:text="Price/PERSON"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/black" />
+        <TextView
+            android:id="@+id/txtRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="4.6"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/Fav_Yellow"
+            android:drawableLeft="@drawable/ic_like_icon"
+            android:textSize="17sp"/>
+        <ImageView
+            android:id="@+id/imgFavIcon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/txtRating"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:src="@drawable/ic_love2_icon"
+            android:clickable="true"/>
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

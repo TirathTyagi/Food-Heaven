@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="6dp"
+    app:cardCornerRadius="4dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation = "vertical">
+        <RelativeLayout
+            android:id="@+id/RelativeFavourite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eeeeee">
+            <ImageView
+                android:id="@+id/imgIconRest"
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_default_rest"/>
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/txtFavRest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/RelativeFavourite"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:text="Restaurant's Name"
+            android:textSize="20sp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+        <TextView
+            android:id="@+id/txtPricePersonFav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtFavRest"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/Price_Green"
+            android:text="Price/Person"
+            android:textStyle="bold"
+            android:textSize="17sp"/>
+        <TextView
+            android:id="@+id/txtFavRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtPricePersonFav"
+            android:textColor="@color/Fav_Yellow"
+            android:layout_centerHorizontal="true"
+            android:text="4.6"
+            android:textSize="20sp"
+            android:drawableLeft="@drawable/ic_like_icon" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

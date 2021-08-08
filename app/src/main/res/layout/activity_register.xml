@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_background"
+    tools:context=".Activity.RegisterActivity">
+
+    <TextView
+        android:id="@+id/txtRegisterShow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/register_yourself"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/etNameAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtRegisterShow"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_profile_icon"
+        android:hint="@string/enter_name"
+        android:padding="6dp" />
+
+    <EditText
+        android:id="@+id/etEmailAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etNameAdd"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_email_icon"
+        android:hint="@string/enter_email_address"
+        android:padding="6dp" />
+
+    <EditText
+        android:id="@+id/etMobileAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etEmailAdd"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_phone_icon"
+        android:hint="@string/enter_mobile_number"
+        android:inputType="phone"
+        android:padding="6dp" />
+
+    <EditText
+        android:id="@+id/etAddressAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etMobileAdd"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_address_icon"
+        android:hint="@string/enter_delivery_address"
+        android:padding="6dp" />
+
+    <EditText
+        android:id="@+id/etPassAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etAddressAdd"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_pass_icon"
+        android:hint="@string/enter_password1"
+        android:inputType="textPassword"
+        android:padding="6dp" />
+
+    <EditText
+        android:id="@+id/etConfPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etPassAdd"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/ic_pass_icon"
+        android:hint="@string/confirm_password"
+        android:inputType="textPassword"
+        android:padding="6dp" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etConfPass"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="@color/button_color"
+        android:text="Register"
+        android:textStyle="bold" />
+</RelativeLayout>

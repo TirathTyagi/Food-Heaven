@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragments.FaqFragment"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#eeeeee">
+        <TextView
+            android:id="@+id/txtQues1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Q.1 How much time does it take for food to deliver?"
+            android:textSize="16sp"
+            android:textColor="@color/app_background" />
+        <TextView
+            android:id="@+id/txtAns1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A.1 It depends on the distance between your address and the restaurant locality."
+            android:layout_below="@id/txtQues1"
+            android:layout_margin="4dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#eeeeee">
+        <TextView
+            android:id="@+id/txtQues2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Q.1 Will my food be fresh?"
+            android:textSize="16sp"
+            android:textColor="@color/app_background" />
+        <TextView
+            android:id="@+id/txtAns2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A.1 We are very strict on our fresh food policy. We only operate with restaurants that prepare fresh food for their customers."
+            android:layout_below="@id/txtQues2"
+            android:layout_margin="4dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#eeeeee">
+        <TextView
+            android:id="@+id/txtQues3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Q.1 Are restaurants listed in this app are hygienic?"
+            android:textSize="16sp"
+            android:textColor="@color/app_background" />
+        <TextView
+            android:id="@+id/txtAns3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A.1 We are only associated with restaurants that have Covid Negative staff working with them. Daily temperature, fresh food, hygienic preparations are taken care of and there is nothing to be worried about."
+            android:layout_below="@id/txtQues3"
+            android:layout_margin="4dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#eeeeee">
+        <TextView
+            android:id="@+id/txtQues4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Q.1 What all payment methods can be used to pay for the order?"
+            android:textSize="16sp"
+            android:textColor="@color/app_background" />
+        <TextView
+            android:id="@+id/txtAns4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A.1 We accept payments done by Credit Card, Debit card, Net Banking, PayPal, PayTM and UPI wallets. Cash on delivery is also available but with that option contactless delivery won't be possible."
+            android:layout_below="@id/txtQues4"
+            android:layout_margin="4dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#eeeeee">
+        <TextView
+            android:id="@+id/txtQues5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:text="Q.1 What if my food is not freshed or already consumed?"
+            android:textSize="16sp"
+            android:textColor="@color/app_background" />
+        <TextView
+            android:id="@+id/txtAns5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A.1 These cases are very rare and we make sure that our customers do not go through this but if this is the case then you can immediately contact us using the app and file a complaint against your order number. We will take required actions to make sure this does not happen again."
+            android:layout_below="@id/txtQues5"
+            android:layout_margin="4dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:textColor="@color/black"/>
+    </RelativeLayout>
+</LinearLayout>

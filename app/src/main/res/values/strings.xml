@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Module 3 Application</string>
+    <string name="enter_phone_number">Enter Phone Number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="log_in">Login</string>
+    <string name="sign_up">Don\'t have an account? Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login_preference">Login Preferences</string>
+    <string name="register_yourself">Register Yourself</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="enter_mobile_number">Enter Mobile Number</string>
+    <string name="enter_delivery_address">Enter Delivery Address</string>
+    <string name="enter_password1">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="entered_registered_mobile_number_and_email_address">Entered registered Mobile Number and Email Address</string>
+    <string name="enter_email_address1">Enter Email Address</string>
+    <string name="enter_mobile_number1">Enter Mobile Number</string>
+    <string name="submit_details">Submit Details</string>
+    <string name="log_out">Log Out</string>
+    <string name="faq_s">FAQ\'s</string>
+    <string name="my_favourites">My Favourites</string>
+    <string name="my_profile_home">My Profile</string>
+    <string name="home_home">Home</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
